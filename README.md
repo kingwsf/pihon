@@ -3,8 +3,9 @@ Create a single docker-compose and use the benefit from pi-hole if you use a Mob
 
 Rationale for this repository: I want to connect OpenVPN to Pi-Hole as easily as possible. However, the user can make changes (meaningful to me), or just use my preferences.
 
-Many thanks to:  
-GitHub @ [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn/)  
+Many thanks to:
+GitHub @ [mr-bolle/docker-openvpn-pihole](https://github.com/mr-bolle/docker-openvpn-pihole)
+GitHub @ [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn/)
 GitHub @ [pi-hole/docker-pi-hole](https://github.com/pi-hole/docker-pi-hole/)
 
 Now you can use this repository with the Hardwaretype x86_x64 and amr (Test with Raspberry Pi 2)
@@ -12,11 +13,11 @@ Now you can use this repository with the Hardwaretype x86_x64 and amr (Test with
 *YouTube: HowTo create this Container in about 4 Minutes*
 [![HowTo create this Container in about 4 Minutes](https://abload.de/img/screenshotcpjyo.jpg)](https://www.youtube.com/embed/8sRtCERYVzk)
 
-### [Changelog](https://github.com/mr-bolle/docker-openvpn-pihole/blob/master/CHANGELOG.md)
+### [Changelog](https://github.com/kingwsf/docker-openvpn-pihole/blob/master/CHANGELOG.md)
 
 ### 1.1. Download and run install Script:
 ```
-git clone https://github.com/mr-bolle/docker-openvpn-pihole.git
+git clone https://github.com/kingwsf/docker-openvpn-pihole.git
 cd docker-openvpn-pihole && bash openvpn-install.sh
 ```
 
