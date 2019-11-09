@@ -1,4 +1,4 @@
-# docker-openvpn-pihole
+# pihon
 Create a single docker-compose and use the benefit from pi-hole if you use a Mobile Device outside your Home network.
 
 Rationale for this repository: I want to connect OpenVPN to Pi-Hole as easily as possible. However, the user can make changes (meaningful to me), or just use my preferences.
@@ -13,12 +13,12 @@ Now you can use this repository with the Hardwaretype x86_x64 and amr (Test with
 *YouTube: HowTo create this Container in about 4 Minutes*
 [![HowTo create this Container in about 4 Minutes](https://abload.de/img/screenshotcpjyo.jpg)](https://www.youtube.com/embed/8sRtCERYVzk)
 
-### [Changelog](https://github.com/kingwsf/docker-openvpn-pihole/blob/master/CHANGELOG.md)
+### [Changelog](https://github.com/kingwsf/pihon/blob/master/CHANGELOG.md)
 
 ### 1.1. Download and run install Script:
 ```
-git clone https://github.com/kingwsf/docker-openvpn-pihole.git
-cd docker-openvpn-pihole && bash openvpn-install.sh
+git clone https://github.com/kingwsf/pihon.git
+cd pihon && bash openvpn-install.sh
 ```
 
 #### 1.2. OpenVPN create certificate and first user [Source](https://github.com/kylemanna/docker-openvpn/blob/master/docs/docker-compose.md)
