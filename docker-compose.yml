@@ -45,14 +45,14 @@ services:
      depends_on:
        - openvpn
      ports:
-       - "553:53/tcp"
-       - "553:53/udp"
+       #- "553:53/tcp"
+       #- "553:53/udp"
        - "8081:80/tcp"
      environment:
        WEBPASSWORD: jfisosdijweJDIWdjsoajkl
 # #1 Digitalcourage | #2 Chaos Computer Club
-       DNS1: 46.182.19.48
-       DNS2: 213.73.91.35
+       DNS1: 1.1.1.1
+       DNS2: 1.0.0.1
      volumes:
        - ./pihole:/etc/pihole
        - ./pihole/dnsmasq.d:/etc/dnsmasq.d
